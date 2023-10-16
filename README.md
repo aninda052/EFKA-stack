@@ -1,13 +1,26 @@
-## Services
+# EFKA Stack
+
+A sample environment running an EFKA stack on your local machine.
+
+Includes -
 
 * [Elasticsearch](https://www.elastic.co/guide/en/elasticsearch/reference/current/elasticsearch-intro.html) - For storing data 
-* [APM](https://www.elastic.co/guide/en/apm/guide/current/apm-overview.html) - For tracking application performence
 * [Filebeat](https://www.elastic.co/guide/en/beats/filebeat/current/filebeat-overview.html) - For Shipping log to elasticsearch 
 * [Kibana](https://www.elastic.co/guide/en/kibana/8.10/introduction.html) - For visualization
+* [APM](https://www.elastic.co/guide/en/apm/guide/current/apm-overview.html) - For tracking application performence
+
+
+## Prerequisites
+
+On your machine, make sure you have following installed :
+
+- [Docker](https://www.docker.com/)
+- [Docker Compose](https://docs.docker.com/compose/)
+
 
 ## Installation
 
-* create `.env` file in `EKA-docker` directory and populate all the required environment variable (see [`.ent.template`](.env.template) for reference)
+* create `.env` file in currnet directory and populate all the required environment variable (see [`.ent.template`](.env.template) for reference)
 
 * build the container 
 
