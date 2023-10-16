@@ -7,4 +7,4 @@ xpack.encryptedSavedObjects.encryptionKey: fhjskloppd678ehkdfdlliverpoolfcr
 
 xpack.fleet.packages:
   - name: apm
-    version: latest
+    version: 8.7.1
